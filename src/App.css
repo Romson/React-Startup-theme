@@ -1,33 +1,87 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.homeSection {
+  background-image: url(./img/header.jpg);
+  background-size: cover;
+  background-position: 25% 25%;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.img-fluid {
+  max-width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  width: 3.4em;
 }
+
+div.homeSlogan {
+  transform: translateY(-120%);
+  color: rgb(189, 178, 178);
+}
+
+.navbarmenu {
+  position: absolute;
+  width: 100vw;
+  background: transparent;
+}
+
+a.nav-link {
+  color: #fff !important;
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+button.navbar-toggler {
+  background-color: rgb(204, 201, 201);
+}
+
+/* .paspartu-top {
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  z-index: 101;
+} */
+
+/* .paspartu-right {
+  height: 100%;
+  width: 30px;
+  position: fixed;
+  background-color: #ffffff;
+  top: 0;
+  right: 0;
+  z-index: 101;
+} */
+
+/* .paspartu-bottom {
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  background-color: #ffffff;
+  bottom: 0;
+  left: 0;
+  z-index: 101;
+} */
+
+/* .paspartu-left {
+  height: 100%;
+  width: 30px;
+  position: fixed;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  z-index: 101;
+} */
+
+/* Navbar */
