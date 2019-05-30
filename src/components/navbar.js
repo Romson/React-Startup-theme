@@ -14,8 +14,8 @@ export const Navbarmenu = () => (
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
         <Nav.Link href="#home">HOME</Nav.Link>
-        <Nav.Link href="#features">PRICING</Nav.Link>
-        <Nav.Link href="#pricing">CONTACT</Nav.Link>
+        <Nav.Link href="#pricing">PRICING</Nav.Link>
+        <Nav.Link href="#contact">CONTACT</Nav.Link>
       </Nav>
       <Button className="buttonLogin" variant="outline-info">
         <i className="fas fa-user" /> Login
