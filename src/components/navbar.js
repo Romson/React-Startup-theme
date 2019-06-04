@@ -15,7 +15,7 @@ export const Navbarmenu = () => (
       <Nav className="mr-auto">
         <Nav.Link href="#home">HOME</Nav.Link>
         <Nav.Link href="#pricing">PRICING</Nav.Link>
-        <Nav.Link href="#contact">CONTACT</Nav.Link>
+        <Nav.Link href="#contact">CONTACT US</Nav.Link>
       </Nav>
       <Button className="buttonLogin" variant="outline-info">
         <i className="fas fa-user" /> Login
